@@ -2,9 +2,11 @@ body{
     background-image: url(/img/background.jpg);
     color: #f5fffa;
     margin: 25px;
-	padding: 0px 250px;
+	padding: 15px;
 	border: 0;
 	font-size: 100%;
+    text-size-adjust: 100%;
+    font-size: 26px;
 }
 
 h1 {
@@ -15,6 +17,19 @@ p{
     text-align: justify;
 }
 
-#conteudo{
+.conteudo{
+    margin:0 auto;
+    width:940px;
+    height: auto;
+}
+
+.conteudo p {
     display: inline-block;
+}
+
+.ilustracoes {
+    padding-top: 25px;
+    width: 50%;
+    display: flex;
+    margin:0 auto;
 }
